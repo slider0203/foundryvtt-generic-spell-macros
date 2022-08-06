@@ -1,0 +1,1 @@
+# foundryvtt-generic-spell-macros
