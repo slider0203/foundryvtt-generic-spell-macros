@@ -38,4 +38,6 @@ let templateData = {
     }
 };
 
-let theTemplate= await MeasuredTemplateDocument.create(templateData, {parent: canvas.scene});
+setTimeout(async () => { 
+    let theTemplate= await MeasuredTemplateDocument.create(templateData, {parent: canvas.scene});
+}, 2500);
